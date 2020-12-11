@@ -1,0 +1,94 @@
+{
+    "available_options": {
+        "header_string": {
+            "type": "text",
+            "default": ""
+        },
+        "content": {
+            "type": "text",
+            "default": ""
+        },
+        "template": {
+            "type": "text",
+            "default": ""
+        },
+        "feed_id": {
+            "type": "single_feed",
+            "default": ""
+        },
+        "feed_ids": {
+            "type": "feed_list",
+            "default": []
+        },
+        "feed_ids_left": {
+            "type": "feed_list",
+            "default": []
+        },
+        "feed_ids_right": {
+            "type": "feed_list",
+            "default": []
+        },
+        "post_limit": {
+            "type": "text",
+            "default": "8"
+        },
+        "post_limit_left": {
+            "type": "text",
+            "default": "8"
+        },
+        "post_limit_right": {
+            "type": "text",
+            "default": "8"
+        },
+        "randomize": {
+            "type": "boolean",
+            "default": false
+        },
+        "mobile_only": {
+            "type": "boolean",
+            "default": false
+        },
+        "hide_on_mobile": {
+            "type": "boolean",
+            "default": false
+        },
+        "truncate_length": {
+            "type": "text",
+            "default": ""
+        }
+    },
+    "presets": {
+        "single_block": {
+            "header_string": null,
+            "feed_ids": [],
+            "post_limit": 8
+        },
+        "dual_block": {
+            "header_string": null,
+            "feed_ids_left": [],
+            "feed_ids_right": [],
+            "post_limit_left": 8,
+            "post_limit_right": 8
+        },
+        "template": {
+            "header_string": null,
+            "template": null
+        },
+        "custom": {
+            "header_string": null,
+            "content": null
+        },
+        "link_collection": {
+            "header_string": null,
+            "feed_ids": []
+        }
+    },
+    "component": {
+        "sample_component": {
+            "preset": "custom",
+            "options": {
+                "truncate_length": "100"
+            }
+        }
+    }
+}
